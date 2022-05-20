@@ -4,6 +4,7 @@ export type RootStackParamList = {
   Home: undefined;
   Details: undefined;
   Snap: undefined;
+  Notification: undefined;
 };
 
 export type Props = NativeStackScreenProps<

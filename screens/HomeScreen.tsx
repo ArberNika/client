@@ -12,6 +12,7 @@ function HomeScreen({ navigation }: Props) {
         onPress={() => navigation.navigate("Details")}
       />
       <Button title="Go to Snap" onPress={() => navigation.navigate("Snap")} />
+      <Button title="Go to Notification" onPress={() => navigation.navigate("Notification")} />
     </View>
   );
 }
